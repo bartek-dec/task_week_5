@@ -26,7 +26,6 @@ public class WeatherController {
     private String lang;
     @Value("${langValue}")
     private String langValue;
-    //private Weather weather;
 
     private WeatherService weatherService;
 
